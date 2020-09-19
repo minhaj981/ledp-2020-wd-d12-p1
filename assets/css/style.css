@@ -1,4 +1,4 @@
-***********************************************************************************
+/***********************************************************************************
 	Project Name: Educafe / LMS;
 	Project Start Date: 16-09-2020;
 	Project Submission Date: 19-09-2020;
@@ -89,9 +89,42 @@ a{
 	background-color: #56ab2f !important;
 	color: #f1f1f1!important;
 }
-
+.c-font{
+	font-family: 'Roboto Slab', serif;
+}
 /**********************************************************************************
 					Common CSS End
+**********************************************************************************/
+
+/*********************************************************************************
+					Owl Css
+**********************************************************************************/
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 45%;
+	font-size: 45px;
+	font-weight: 300;
+ }
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover{
+	background: none;
+	color: #56ab2f;
+}
+ .owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus{
+	border: none;
+	outline: none;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+
+}
+.owl-carousel .owl-nav button.owl-prev{
+	left: -5%;
+}
+/*********************************************************************************
+					Owl Css End
 **********************************************************************************/
 
 /**********************************************************************************
@@ -177,6 +210,38 @@ a{
 /**********************************************************************************
 					Courses CSS Start
 **********************************************************************************/
+.list{
+	padding:0 !important;
+	margin: 0 !important;
+	border-top:1px solid #c7c7c7;
+}
+.list li{
+	padding: 10px;
+}
+.list li a{
+	padding: 10px;
+
+}
+.list li:nth-child(2){
+	border-left: 1px solid #c7c7c7;
+	border-right: 1px solid #c7c7c7;
+}
+.c_body{
+	padding: 0;
+	margin: 0;
+	padding-top: 20px !important;
+}
+.no-radius{
+	border-radius: 0px !important;
+}
+.card_line{
+	width: 135px;
+	border-bottom: 2px solid #c7c7c7;
+	margin-left: 90px;
+}
+.card:hover{
+	border-color: #56ab2f !important; 
+}
 /**********************************************************************************
 					Courses CSS End
 **********************************************************************************/
