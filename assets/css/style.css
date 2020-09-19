@@ -92,6 +92,10 @@ a{
 .c-font{
 	font-family: 'Roboto Slab', serif;
 }
+.c_f_size{
+	/*margin-bottom: 0;*/
+	font-size: 14px;
+}
 /**********************************************************************************
 					Common CSS End
 **********************************************************************************/
@@ -237,7 +241,7 @@ a{
 .card_line{
 	width: 135px;
 	border-bottom: 2px solid #c7c7c7;
-	margin-left: 90px;
+	margin-left: 30%;
 }
 .card:hover{
 	border-color: #56ab2f !important; 
@@ -249,6 +253,10 @@ a{
 /**********************************************************************************
 					Facts CSS Start
 **********************************************************************************/
+.facts{
+	background: url(../img/home/face_bg.png);
+	background-attachment: fixed;
+}
 /**********************************************************************************
 					Facts CSS End
 **********************************************************************************/
@@ -263,6 +271,23 @@ a{
 /**********************************************************************************
 					TESTIMONIAL CSS Start
 **********************************************************************************/
+.testimonial{
+	background: url(../img/home/test.png);
+}
+.recent-img{
+	max-width: 100px;
+	/*margin-top: -15%;
+	overflow: visible;*/
+	/*text-align: center;*/
+	margin-left: 35%;
+	display: initial !important;
+	margin-bottom: -10%;
+}
+.recent-card{
+	border:  20px solid transparent;
+	border-image: url(../img/home/border.png) 60% round;
+	border-top: none;
+}
 /**********************************************************************************
 					TESTIMONIAL CSS End
 **********************************************************************************/
