@@ -38,6 +38,9 @@ ul{
 a{
 	text-decoration: none;
 }
+::placeholder{
+	color: white;
+}
 /**********************************************************************************
 					Base CSS End
 **********************************************************************************/
@@ -295,6 +298,20 @@ a{
 /**********************************************************************************
 					CTA CSS Start
 **********************************************************************************/
+.s_email{
+	width: 40%;
+	font-size: 20px;
+	border: 1px solid #fff !important; 
+	padding: 10px;
+	background: transparent;
+}
+.s_email:focus{
+	outline: none;
+}
+.submit{
+	background: #fff;
+	margin-left: 5px;
+}
 /**********************************************************************************
 					CTA CSS End
 **********************************************************************************/
@@ -302,6 +319,47 @@ a{
 /**********************************************************************************
 					Footer CSS Start
 **********************************************************************************/
+.footer{
+	background: #000;
+}
+.footer-list{
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+}
+.footer-list li{
+	color: white;
+}
+.footer-link{
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	padding-top: 30px !important;
+}
+.footer-link li a{
+	color: white;
+}
+.footer-link li a i{
+	color: #56ab2f !important; 
+}
+.footer-bottom{
+	border-top: 1px solid #56ab2f !important; 
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.footer-so li{
+	height: 30px;
+	width: 30px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 5px;
+}
+.footer-so li a{
+	color: white;
+}
+.footer-so li:hover a{
+	color: #56ab2f !important; 
+}
 /**********************************************************************************
 					Footer CSS End
 **********************************************************************************/
