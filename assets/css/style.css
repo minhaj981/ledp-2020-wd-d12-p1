@@ -11,7 +11,7 @@
 			Home Page
 		________________
 		Total Section
-		1.TopBar;
+		1.TopBar; 
 		2.NavBar;
 		3.Slider;
 		4.Princilpe;
@@ -137,11 +137,11 @@ a{
 /**********************************************************************************
 					TopBar CSS Start
 **********************************************************************************/
-.topBar{
+/*.topBar{
 	height: 49px !important;
 	line-height: 49px !important;
 	position: relative;
-}
+}*/
 .left-menu li{
 	padding-left: 10px !important;
 }
@@ -182,12 +182,12 @@ a{
 	left: 55% !important;
 	top: 30% !important;
 }
-.position_abs_slide{
+/*.position_abs_slide{
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: -9999;
-}
+}*/
 /**********************************************************************************
 					Slider CSS End
 **********************************************************************************/
@@ -195,9 +195,9 @@ a{
 /**********************************************************************************
 					Princilpe CSS Start
 **********************************************************************************/
-.principle{
+/*.principle{
 	margin-top: 50%;
-}
+}*/
 .letter_space{
 	letter-spacing: 2px;
 }
