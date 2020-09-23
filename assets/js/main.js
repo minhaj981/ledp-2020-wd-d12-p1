@@ -1,3 +1,23 @@
+$('.teacher_about_car').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+    dots:false,
+    dotsEach:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -19,6 +39,7 @@ $('.owl-carousel').owlCarousel({
 });
 
 
+
 $(document).ready(function() {
     $('.footer_popup').magnificPopup({
         delegate: 'a',
@@ -38,3 +59,16 @@ $(document).ready(function() {
         }
     });
 });
+
+
+// wow.init();
+
+const opti = {
+          suffix: '+',
+        };
+        let demo = new CountUp('.teacher', 300, opti);
+        if (!demo.error) {
+          demo.start();
+        } else {
+          console.error(demo.error);
+        }

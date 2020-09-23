@@ -22,6 +22,12 @@
 		9.CTA;
 		10.Footer;
 		_________________
+		About Page
+		__________________
+
+		1.
+		2.
+
 **********************************************************************************/
 
 /**********************************************************************************
@@ -98,6 +104,12 @@ a{
 .c_f_size{
 	/*margin-bottom: 0;*/
 	font-size: 14px;
+}
+.c_border{
+	border: 1px solid #56ab2f !important;
+}
+.border-btn{
+	border-bottom: 1px solid #56ab2f !important;
 }
 /**********************************************************************************
 					Common CSS End
@@ -363,6 +375,75 @@ a{
 /**********************************************************************************
 					Footer CSS End
 **********************************************************************************/
+/**=================================================================================================*******
+									About Page CSS Start 
+***=================================================================================================********/
+/**********************************************************************************
+					bradcrumb CSS Start
+**********************************************************************************/
+.bradcrumb{
+	background: url(../img/about/bradcamp.png);
+	background-attachment: fixed;
+	/*background-position: center;*/
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+.about_ancor:hover{
+text-decoration: none;
+}
+.about_home::after{
+	content: "/";
+	color: white;
+	padding-left: 5px;
+}
+.teacher_about_so {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.teacher_about_so li{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 26%;
+	margin-bottom: 27%;
+}
+.teacher_about_so li:hover{
+	background: white;
+}
+.teacher_about_so li a{
+	color: white;
+}
+.teacher_about_so li:hover a{
+	color: #56ab2f !important; 
+}
+.po_rel{
+	position: relative;
+	overflow: hidden;
+}
+.overlay_card{
+	position: absolute;
+	top: 0;
+	right: -120%;
+	transition: .5s ease-out;
+	/*height: 55% !important;*/
+	overflow: hidden;
+}
+.po_rel:hover .overlay_card{
+	right: 0;
+	transition: .5s ease-in;
+	overflow: hidden;
+}
+/**********************************************************************************
+					bradcrumb CSS End
+**********************************************************************************/
+/**=================================================================================================*******
+									About Page CSS End 
+***=================================================================================================********/
 
 /**********************************************************************************
 					Responsive CSS Start
@@ -390,6 +471,51 @@ a{
 }
 
 }
+@media only screen and (max-width: 1024px) {
+	.teacher_about_so{
+		margin-bottom: 0px !important;
+	}
+	.teacher_about_so li{
+	
+	margin-top: 13%;
+	margin-bottom: 13%;
+}
+
+}
+@media only screen and (max-width: 768px) {
+	
+	.teacher_about_so li{
+	
+	margin-top: 60%;
+	margin-bottom: 60%;
+}
+}
+@media only screen and (max-width: 540px) {
+	
+	.teacher_about_so li{
+	
+	margin-top: 142%;
+	margin-bottom: 148%;
+}
+}
+@media only screen and (max-width: 375px) {
+	
+	.teacher_about_so li{
+	
+	margin-top: 69%;
+	margin-bottom: 70%;
+}
+}
+@media only screen and (max-width: 360px) {
+	
+	.teacher_about_so li{
+	
+	margin-top: 60%;
+	margin-bottom: 63%;
+}
+
+}
+
 /**********************************************************************************
 					Responsive CSS End
 *********************************************************************************
