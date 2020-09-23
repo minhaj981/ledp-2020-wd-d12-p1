@@ -111,6 +111,11 @@ a{
 .border-btn{
 	border-bottom: 1px solid #56ab2f !important;
 }
+.overline{
+	text-decoration-line: overline;
+	text-decoration-color: #56ab2f !important;
+	text-decoration-style: solid;
+}
 /**********************************************************************************
 					Common CSS End
 **********************************************************************************/
@@ -444,7 +449,35 @@ text-decoration: none;
 /**=================================================================================================*******
 									About Page CSS End 
 ***=================================================================================================********/
-
+.custom_select{
+	border-color: #56ab2f !important;
+    margin-top: 0px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.course_btn_border{
+border:1px solid  #56ab2f !important;
+}
+.teacher-so{
+	padding-left: 0px !important;
+}
+.teacher-so li{
+	height: 40px;
+	width: 40px;
+	border: 1px solid #c7c7c7 !important;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 5px;
+}
+.teacher-so li a{
+	color: #000;
+}
+.teacher-so li:hover a{
+	color: #56ab2f !important; 
+}
 /**********************************************************************************
 					Responsive CSS Start
 **********************************************************************************/
@@ -463,6 +496,9 @@ text-decoration: none;
 	top: 10%;
 }
 
+.d-block-sm{
+	display: block !important;
+}
 }
 @media only screen and (max-width: 537px) {
 	
